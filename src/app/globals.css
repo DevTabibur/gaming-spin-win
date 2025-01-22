@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+/* Custom scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #171717; /* Dark background for the track */
+  border-radius: 10px; /* Rounded track */
+  border: 2px solid #2e2e2e; /* Border around the track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #38c9ea,
+    #2cbec8
+  ); /* Neon gradient thumb */
+  border-radius: 10px; /* Rounded thumb */
+  border: 2px solid #2e2e2e; /* Border around the thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #5cddf5,
+    #45c9d9
+  ); /* Bright neon on hover */
+}
+
+/* Scrollbar styling for Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #38c9ea #171717; /* Thumb and track color */
+}
+
+/* Specific style for Firefox thumb and track */
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #38c9ea, #2cbec8);
+}
+
+*::-moz-scrollbar-track {
+  background: #171717;
+}
+
+.frame-container {
+  position: relative; /* Make the container relative to position the overlay */
+  background-image: url('../assets/hero/herobg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}

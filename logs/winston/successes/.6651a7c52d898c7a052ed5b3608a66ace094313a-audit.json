@@ -1,0 +1,15 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\PROJECTS\\PROKKEN\\home\\logs\\winston\\successes\\.6651a7c52d898c7a052ed5b3608a66ace094313a-audit.json",
+  "files": [
+    {
+      "date": 1728784128650,
+      "name": "D:\\PROJECTS\\PROKKEN\\home\\logs\\winston\\successes\\GAMING-Home-2024-13-10-07-success.log",
+      "hash": "ce79dc92f05271695f880a8409c8f107c7f8305c738561451eee5282edee4e1c"
+    }
+  ],
+  "hashType": "sha256"
+}
